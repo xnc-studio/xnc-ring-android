@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    tools:context=".MenulistActivity" >
+
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentTop="true"
+	    android:orientation="horizontal" >
+		
+	    <com.xnc.ui.textview.MenuItem
+		    android:id="@+id/header_nb"
+		    style="@style/header_text"
+		    android:layout_width="match_parent"
+		    android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip"
+		    android:text="@string/header_menu" />
+	    
+	    <View android:visibility="gone" style="@style/vertical_menu_line" />
+	    
+		<com.xnc.ui.textview.MenuItem
+		    android:id="@+id/header_menu"
+		    style="@style/header_text"
+		    android:layout_width="match_parent"
+		   android:paddingLeft="5.0dip" android:paddingRight="10.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="12.0dip" 
+		    android:text="@string/header_menu" />
+
+	</LinearLayout>
+
+</RelativeLayout>

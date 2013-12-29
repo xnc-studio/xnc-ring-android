@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="buttonBarStyle">@style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="ButtonBarButton" />
+    
+    <style name="menu_text">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="menu_text_selection" parent="@style/menu_text">
+        <item name="android:textSize">@dimen/h5</item>
+        <item name="android:textColor">@drawable/menu_text_color</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="full_width_with_margins">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/left_margin</item>
+        <item name="android:layout_marginRight">@dimen/right_margin</item>
+    </style>
+    <style name="horizontal_line" parent="@style/full_width_with_margins">
+        <item name="android:background">@color/horizontal_line</item>
+        <item name="android:layout_height">1.0px</item>
+    </style>
+    <style name="menu_selection_divider" parent="@style/horizontal_line">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@color/tiffany_dark_blue</item>
+        <item name="android:layout_width">175.0dip</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:layout_marginBottom">10.0dip</item>
+    </style>
+    
+    <style name="header_text">
+        <item name="android:textSize">@dimen/h8</item>
+        <item name="android:textColor">@drawable/clickable_text_color</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:padding">5.0dip</item>
+        <item name="android:paddingTop">15.0dip</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="vertical_menu_line">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@color/vertical_line_gray</item>
+        <item name="android:layout_width">1.0px</item>
+        <item name="android:layout_height">20.0dip</item>
+    </style>
+
+</resources>

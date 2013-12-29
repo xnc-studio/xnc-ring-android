@@ -1,0 +1,12 @@
+<resources>
+	<item type="color" name="black">@*android:color/black</item>
+    <color name="black_overlay">#66000000</color>
+    <color name="maincolor">#ff85d0cb</color>
+    <color name="menu_btn_clicked">#70000099</color>
+    <item type="color" name="menu_btn_not_clicked">@*android:color/black</item>
+    <item type="color" name="horizontal_line">@color/black</item>
+    <color name="tiffany_dark_blue">#ff80d7cf</color>
+    <color name="default_blue">#ff3daeb6</color>
+    <color name="vertical_line_gray">#ffa1a1a1</color>
+
+</resources>

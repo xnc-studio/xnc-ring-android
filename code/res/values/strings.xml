@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">XNC-ring</string>
+    <string name="app_desc">The Engagement Rings of \nTiffany</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_menulist">MenulistActivity</string>
+    <string name="menu_fragment_find_perfect_ring">FIND YOUR PERFECT RING</string>
+    <string name="menu_fragment_saved_rings">SAVED RINGS</string>
+    <string name="menu_fragment_schedule_apt">SCHEDULE AN APPOINTMENT</string>
+    <string name="menu_fragment_tiffany_difference">ABOUT TIFFANY DIAMONDS</string>
+    <string name="menu_fragment_my_circle">SHARE YOUR RINGS</string>
+    <string name="menu_fragment_we_got_engaged">We’re Engaged!</string>
+    <string name="title_activity_item_browse">ItemBrowseActivity</string>
+    <string name="header_menu">Menu</string>
+    
+
+</resources>
